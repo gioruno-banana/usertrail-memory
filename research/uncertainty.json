@@ -1,0 +1,59 @@
+{
+  "development": {
+    "candidate_minus_baseline_macro_pp": -0.3472222222222222,
+    "group_bootstrap_95ci_pp": [
+      -1.4190821256038646,
+      0.7397342995169082
+    ],
+    "bootstrap_replicates": 5000,
+    "seed": 20261031,
+    "groups_per_dataset": {
+      "locomo": 5,
+      "longmem": 48,
+      "beam": 10,
+      "clbench": 48,
+      "persona1": 10,
+      "persona2": 48
+    },
+    "public_data_historically_exposed": true,
+    "not_independent_official_replication": true
+  },
+  "holdout": {
+    "candidate_minus_baseline_macro_pp": 0.3472222222222222,
+    "group_bootstrap_95ci_pp": [
+      0.0,
+      1.0416666666666665
+    ],
+    "bootstrap_replicates": 5000,
+    "seed": 20261031,
+    "groups_per_dataset": {
+      "locomo": 5,
+      "longmem": 48,
+      "beam": 10,
+      "clbench": 48,
+      "persona1": 10,
+      "persona2": 48
+    },
+    "public_data_historically_exposed": true,
+    "not_independent_official_replication": true
+  },
+  "all": {
+    "candidate_minus_baseline_macro_pp": 0.0,
+    "group_bootstrap_95ci_pp": [
+      -0.6944444444444444,
+      0.6980994152046783
+    ],
+    "bootstrap_replicates": 5000,
+    "seed": 20261031,
+    "groups_per_dataset": {
+      "locomo": 10,
+      "longmem": 96,
+      "beam": 20,
+      "clbench": 96,
+      "persona1": 20,
+      "persona2": 96
+    },
+    "public_data_historically_exposed": true,
+    "not_independent_official_replication": true
+  }
+}

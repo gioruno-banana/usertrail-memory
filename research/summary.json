@@ -1,0 +1,386 @@
+{
+  "coverage": {
+    "expected": 1152,
+    "completed": 1152,
+    "valid": 1152
+  },
+  "splits": {
+    "development": {
+      "baseline32": {
+        "datasets": {
+          "locomo": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 25.0,
+            "accuracy": 0.5208333333333334
+          },
+          "longmem": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 26.0,
+            "accuracy": 0.5416666666666666
+          },
+          "beam": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 22.0,
+            "accuracy": 0.4583333333333333
+          },
+          "clbench": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 0.0,
+            "accuracy": 0.0
+          },
+          "persona1": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 36.0,
+            "accuracy": 0.75
+          },
+          "persona2": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 15.0,
+            "accuracy": 0.3125
+          }
+        },
+        "macro_accuracy": 0.4305555555555556
+      },
+      "candidate": {
+        "datasets": {
+          "locomo": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 25.0,
+            "accuracy": 0.5208333333333334
+          },
+          "longmem": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 25.0,
+            "accuracy": 0.5208333333333334
+          },
+          "beam": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 22.0,
+            "accuracy": 0.4583333333333333
+          },
+          "clbench": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 0.0,
+            "accuracy": 0.0
+          },
+          "persona1": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 36.0,
+            "accuracy": 0.75
+          },
+          "persona2": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 15.0,
+            "accuracy": 0.3125
+          }
+        },
+        "macro_accuracy": 0.42708333333333337
+      },
+      "paired": {
+        "candidate_wins": 1,
+        "candidate_losses": 2,
+        "ties": 285
+      },
+      "delta_macro_pp": -0.347222222222221
+    },
+    "holdout": {
+      "baseline32": {
+        "datasets": {
+          "locomo": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 24.0,
+            "accuracy": 0.5
+          },
+          "longmem": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 30.0,
+            "accuracy": 0.625
+          },
+          "beam": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 23.0,
+            "accuracy": 0.4791666666666667
+          },
+          "clbench": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 0.0,
+            "accuracy": 0.0
+          },
+          "persona1": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 31.0,
+            "accuracy": 0.6458333333333334
+          },
+          "persona2": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 24.0,
+            "accuracy": 0.5
+          }
+        },
+        "macro_accuracy": 0.45833333333333337
+      },
+      "candidate": {
+        "datasets": {
+          "locomo": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 24.0,
+            "accuracy": 0.5
+          },
+          "longmem": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 31.0,
+            "accuracy": 0.6458333333333334
+          },
+          "beam": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 23.0,
+            "accuracy": 0.4791666666666667
+          },
+          "clbench": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 0.0,
+            "accuracy": 0.0
+          },
+          "persona1": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 31.0,
+            "accuracy": 0.6458333333333334
+          },
+          "persona2": {
+            "n": 48,
+            "completed": 48,
+            "valid": 48,
+            "correct": 24.0,
+            "accuracy": 0.5
+          }
+        },
+        "macro_accuracy": 0.4618055555555556
+      },
+      "paired": {
+        "candidate_wins": 3,
+        "candidate_losses": 2,
+        "ties": 283
+      },
+      "delta_macro_pp": 0.347222222222221
+    },
+    "all": {
+      "baseline32": {
+        "datasets": {
+          "locomo": {
+            "n": 96,
+            "completed": 96,
+            "valid": 96,
+            "correct": 49.0,
+            "accuracy": 0.5104166666666666
+          },
+          "longmem": {
+            "n": 96,
+            "completed": 96,
+            "valid": 96,
+            "correct": 56.0,
+            "accuracy": 0.5833333333333334
+          },
+          "beam": {
+            "n": 96,
+            "completed": 96,
+            "valid": 96,
+            "correct": 45.0,
+            "accuracy": 0.46875
+          },
+          "clbench": {
+            "n": 96,
+            "completed": 96,
+            "valid": 96,
+            "correct": 0.0,
+            "accuracy": 0.0
+          },
+          "persona1": {
+            "n": 96,
+            "completed": 96,
+            "valid": 96,
+            "correct": 67.0,
+            "accuracy": 0.6979166666666666
+          },
+          "persona2": {
+            "n": 96,
+            "completed": 96,
+            "valid": 96,
+            "correct": 39.0,
+            "accuracy": 0.40625
+          }
+        },
+        "macro_accuracy": 0.4444444444444444
+      },
+      "candidate": {
+        "datasets": {
+          "locomo": {
+            "n": 96,
+            "completed": 96,
+            "valid": 96,
+            "correct": 49.0,
+            "accuracy": 0.5104166666666666
+          },
+          "longmem": {
+            "n": 96,
+            "completed": 96,
+            "valid": 96,
+            "correct": 56.0,
+            "accuracy": 0.5833333333333334
+          },
+          "beam": {
+            "n": 96,
+            "completed": 96,
+            "valid": 96,
+            "correct": 45.0,
+            "accuracy": 0.46875
+          },
+          "clbench": {
+            "n": 96,
+            "completed": 96,
+            "valid": 96,
+            "correct": 0.0,
+            "accuracy": 0.0
+          },
+          "persona1": {
+            "n": 96,
+            "completed": 96,
+            "valid": 96,
+            "correct": 67.0,
+            "accuracy": 0.6979166666666666
+          },
+          "persona2": {
+            "n": 96,
+            "completed": 96,
+            "valid": 96,
+            "correct": 39.0,
+            "accuracy": 0.40625
+          }
+        },
+        "macro_accuracy": 0.4444444444444444
+      },
+      "paired": {
+        "candidate_wins": 4,
+        "candidate_losses": 4,
+        "ties": 568
+      },
+      "delta_macro_pp": 0.0
+    }
+  },
+  "screening": {
+    "item_1_baseline_reproduction": true,
+    "item_2_integrity_and_protection": true,
+    "item_3_development_macro_strict_gain": false,
+    "holdout_macro_strict_gain": true,
+    "item_4_annotated_input_gain": false
+  },
+  "permanent_gate": {
+    "passed": false,
+    "error_type": "ValueError",
+    "reason": "development/longmem regressed"
+  },
+  "strict_mcq_format_passed": false,
+  "input_changes": {
+    "cases": 576,
+    "changed": 97,
+    "outside_initial128_cases": 8,
+    "cases_with_new_source_chars": 55,
+    "cases_losing_source_chars": 56,
+    "route_counts": {
+      "nonpersonal_query": 139,
+      "no_novel_user_statement": 165,
+      "protected_context_exhausts_budget": 18,
+      "full_history_topic_dossier": 142,
+      "native_document": 79,
+      "rule_query": 33
+    }
+  },
+  "latency_seconds": {
+    "baseline32": {
+      "n": 576,
+      "mean": 0.18455902777754496,
+      "median": 0.14099999982863665,
+      "p95": 0.39099999982863665
+    },
+    "candidate": {
+      "n": 576,
+      "mean": 0.17998784722456346,
+      "median": 0.14000000013038516,
+      "p95": 0.375
+    }
+  },
+  "answer_budget_limited": 101,
+  "cl_verdict_status_inconsistent": 0,
+  "decision": "rejected_for_adoption",
+  "model": "Qwen3.5-4B Q4_K_M",
+  "model_sha256": "2c9f9dcd9581c94510a1d033421114a67aedf7c948bcbd4f4aa4a01fb610880c",
+  "runtime": "llama.cpp b11146",
+  "embedding": "local BGE-small-en-v1.5; frozen cached vectors",
+  "Answer_context": 8192,
+  "Answer_packing_HF_tokens": 4096,
+  "final_CL_Judge_context": 10240,
+  "other_Judge_context": 8192,
+  "generation": {
+    "temperature": 0,
+    "seed": 20261030,
+    "thinking": false,
+    "output_tokens": 512
+  },
+  "all_fixed_Answers_unchanged": true,
+  "non_CL_records_unchanged": true,
+  "previously_valid_CL_accuracy_changes": 0,
+  "previously_valid_CL_rubric_changes": 0,
+  "newly_valid_CL_arms": 2,
+  "amended_after_outcomes": true,
+  "historically_exposed_public_data": true,
+  "independent_replication": false,
+  "training_calls": 0,
+  "paid_calls": 0,
+  "official_submissions": 0,
+  "promotion": false
+}

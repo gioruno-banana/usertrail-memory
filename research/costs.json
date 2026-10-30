@@ -1,0 +1,93 @@
+{
+  "first_pass": {
+    "counts": {
+      "stored_unique_requests": 314,
+      "Judge_successful": 62,
+      "Answer_successful": 56,
+      "failed_or_uncertain": 196
+    },
+    "tokens": {
+      "prompt_tokens": 276432,
+      "completion_tokens": 6118
+    },
+    "reported_model_timings_ms": {
+      "prompt_ms": 93185.59499999999,
+      "predicted_ms": 67446.91400000002
+    },
+    "valid_logical_arm_seconds": {
+      "n": 112,
+      "mean": 1.5749196428576917,
+      "median": 1.0160000000614673,
+      "p95": 4.4689999998081475,
+      "includes_exact_request_cache_hits": true
+    }
+  },
+  "recovery": {
+    "counts": {
+      "stored_unique_requests": 1293,
+      "Judge_successful": 620,
+      "Answer_successful": 673
+    },
+    "tokens": {
+      "prompt_tokens": 3433534,
+      "completion_tokens": 130962
+    },
+    "reported_model_timings_ms": {
+      "prompt_ms": 1127528.2300000004,
+      "predicted_ms": 1372801.0649999978
+    },
+    "valid_logical_arm_seconds": {
+      "n": 1148,
+      "mean": 2.199314459930182,
+      "median": 1.3899999998975545,
+      "p95": 8.375,
+      "includes_exact_request_cache_hits": true
+    }
+  },
+  "validity_repair": {
+    "counts": {
+      "stored_unique_requests": 1,
+      "Judge_successful": 1
+    },
+    "tokens": {
+      "prompt_tokens": 1202,
+      "completion_tokens": 101
+    },
+    "reported_model_timings_ms": {
+      "prompt_ms": 521.831,
+      "predicted_ms": 1190.813
+    },
+    "valid_logical_arm_seconds": {
+      "n": 1150,
+      "mean": 0.04858782608750398,
+      "median": 0.03150000004097819,
+      "p95": 0.10999999986961484,
+      "includes_exact_request_cache_hits": true
+    }
+  },
+  "CL_context10240": {
+    "counts": {
+      "stored_unique_requests": 99,
+      "Judge_successful": 99
+    },
+    "tokens": {
+      "prompt_tokens": 134695,
+      "completion_tokens": 11726
+    },
+    "reported_model_timings_ms": {
+      "prompt_ms": 29903.682,
+      "predicted_ms": 119360.15600000006
+    },
+    "valid_logical_arm_seconds": {
+      "n": 192,
+      "mean": 0.797526041665454,
+      "median": 0.9769999999552965,
+      "p95": 2.015000000130385,
+      "includes_exact_request_cache_hits": true
+    }
+  },
+  "paid_calls": 0,
+  "new_embedding_calls": 0,
+  "training_calls": 0,
+  "official_submissions": 0
+}

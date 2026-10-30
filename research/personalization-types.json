@@ -1,0 +1,128 @@
+{
+  "persona1/suggest_new_ideas": {
+    "cases": 14,
+    "valid_pairs": 14,
+    "baseline_correct": 8.0,
+    "candidate_correct": 9.0,
+    "wins": 1,
+    "losses": 0,
+    "ties": 13
+  },
+  "persona1/recalling_the_reasons_behind_previous_updates": {
+    "cases": 14,
+    "valid_pairs": 14,
+    "baseline_correct": 13.0,
+    "candidate_correct": 13.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 14
+  },
+  "persona1/track_full_preference_evolution": {
+    "cases": 15,
+    "valid_pairs": 15,
+    "baseline_correct": 13.0,
+    "candidate_correct": 13.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 15
+  },
+  "persona1/recall_user_shared_facts": {
+    "cases": 14,
+    "valid_pairs": 14,
+    "baseline_correct": 6.0,
+    "candidate_correct": 6.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 14
+  },
+  "persona1/generalizing_to_new_scenarios": {
+    "cases": 13,
+    "valid_pairs": 13,
+    "baseline_correct": 11.0,
+    "candidate_correct": 11.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 13
+  },
+  "persona1/provide_preference_aligned_recommendations": {
+    "cases": 14,
+    "valid_pairs": 14,
+    "baseline_correct": 10.0,
+    "candidate_correct": 9.0,
+    "wins": 0,
+    "losses": 1,
+    "ties": 13
+  },
+  "persona1/recalling_facts_mentioned_by_the_user": {
+    "cases": 12,
+    "valid_pairs": 12,
+    "baseline_correct": 6.0,
+    "candidate_correct": 6.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 12
+  },
+  "persona2/sensitive_info": {
+    "cases": 13,
+    "valid_pairs": 13,
+    "baseline_correct": 7.0,
+    "candidate_correct": 7.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 13
+  },
+  "persona2/ask_to_forget": {
+    "cases": 14,
+    "valid_pairs": 14,
+    "baseline_correct": 0.0,
+    "candidate_correct": 0.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 14
+  },
+  "persona2/health_and_medical_conditions": {
+    "cases": 14,
+    "valid_pairs": 14,
+    "baseline_correct": 6.0,
+    "candidate_correct": 6.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 14
+  },
+  "persona2/neutral_preferences": {
+    "cases": 14,
+    "valid_pairs": 14,
+    "baseline_correct": 5.0,
+    "candidate_correct": 5.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 14
+  },
+  "persona2/stereotypical_pref": {
+    "cases": 14,
+    "valid_pairs": 14,
+    "baseline_correct": 9.0,
+    "candidate_correct": 9.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 14
+  },
+  "persona2/therapy_background": {
+    "cases": 13,
+    "valid_pairs": 13,
+    "baseline_correct": 8.0,
+    "candidate_correct": 8.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 13
+  },
+  "persona2/anti_stereotypical_pref": {
+    "cases": 14,
+    "valid_pairs": 14,
+    "baseline_correct": 4.0,
+    "candidate_correct": 4.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 14
+  }
+}
