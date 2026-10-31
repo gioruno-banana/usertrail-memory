@@ -1,5 +1,15 @@
 # UserTrail Memory · 用户原文证据记忆
 
+## 当前 m06 候选：v0.69 / V3
+
+当前线上源码位于 [releases/v0.69-v3-current-source](releases/v0.69-v3-current-source/)，入口为 `m06_candidate:app`；部署请读 [当前运行与来源说明](SUBMISSION_v0.69_DRAFT.zh-CN.md)。该目录逐字保留冻结的部署源码，根目录其余实现与下文实验记录对应历史 V1。
+
+V3 基于 exact SourceTrail 0.32，尚未完成全部本地最终答案评分，也未证明稳定优于原版。两次完整官方 Smoke 为 60.2431、65.625；Full 尚未提交，最终批准待定。归档中的研究阶段标志保留打包当时的状态，后续官方运行以本说明为准。
+
+---
+
+## 历史 V1 发布记录
+
 UserTrail Memory 从完整历史中寻找与当前问题有关的用户原文，为解释原因、条件、否定和不同日期的陈述保留证据。它先运行 exact SourceTrail 0.32 的检索与打包，再按固定规则补充用户来源。返回的是原文证据；最终回答由调用方自己的模型生成。
 
 **版本：0.1.0-research。研究结论：尚未验证优于 exact 0.32，拒绝用于替换 incumbent。** 这是可复现研究候选的发布，不是高分或生产效果保证；未提交新的 Smoke/Full，也未自动晋升。
