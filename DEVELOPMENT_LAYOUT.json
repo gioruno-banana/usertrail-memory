@@ -1,0 +1,641 @@
+{
+  "schema_version": 1,
+  "system": "UserTrail: history, interfaces and coordination",
+  "before_commit": "e50bf64e067c7ad032538213110f6587d91620b9",
+  "release_paths_preserved": true,
+  "original_files": {
+    ".gitattributes": {
+      "path": ".gitattributes",
+      "before_sha256": "25e32e1471ed181521d0dc2cb8513cf0c8d332d074f968bc52a715e6379d81a4",
+      "adapted": false
+    },
+    ".gitignore": {
+      "path": ".gitignore",
+      "before_sha256": "0fba60c2046dd4b5a6360e668301fef8b5dce35b8a9950fa64fcb1d3da54ca15",
+      "adapted": true
+    },
+    "CHANGELOG.md": {
+      "path": "CHANGELOG.md",
+      "before_sha256": "5bf9feea6427632979ed445b9c4a59ac98a3c45026a5cc56d07b6af4f86130ab",
+      "adapted": true
+    },
+    "LICENSE": {
+      "path": "LICENSE",
+      "before_sha256": "5e840be8e2574ddc674ea9fac785d991d2aad1327a4a9a0f560a8cb57668c530",
+      "adapted": false
+    },
+    "README.md": {
+      "path": "README.md",
+      "before_sha256": "553560cb0670c61ffd17a297a63475567fdbe232f3d98abbbfb36984362dc9f8",
+      "adapted": true
+    },
+    "RELEASE_MANIFEST.json": {
+      "path": "RELEASE_MANIFEST.json",
+      "before_sha256": "58910e5cba077e30c28c197a4ee5f00021ad43c508b131f14fd0790a85f44f70",
+      "adapted": true
+    },
+    "RUN_GUIDE.md": {
+      "path": "scenarios/RUN_GUIDE.md",
+      "before_sha256": "358c54ec5875daf0f48fbcdf1065743e4aa77e91a9ec5a9411a84cf8f9637127",
+      "adapted": true
+    },
+    "SOURCE_PROVENANCE.json": {
+      "path": "SOURCE_PROVENANCE.json",
+      "before_sha256": "02ee62b3c82e3585c655c652a810ad15795d80c9616c3fe8ba2dddc0f7ab0a94",
+      "adapted": false
+    },
+    "SUBMISSION_v0.69_DRAFT.zh-CN.md": {
+      "path": "SUBMISSION_v0.69_DRAFT.zh-CN.md",
+      "before_sha256": "7b235c33b1afa0ddf4f9a70dbee4af3fc910b8bc7a17d5f17f10adfc18b313de",
+      "adapted": true
+    },
+    "candidate.py": {
+      "path": "history/usertrail/candidates.py",
+      "before_sha256": "1639d2ec45464ac94af6a443c59509b9e85c8aecaff4028d86c320de31a44c78",
+      "adapted": false
+    },
+    "demo.py": {
+      "path": "scenarios/history_demo.py",
+      "before_sha256": "f6d1529c6d893335733474e4798b0419c02c2854004845d07b8a36f14243c28c",
+      "adapted": false
+    },
+    "exact32-source/LICENSE": {
+      "path": "upstream/exact32/LICENSE",
+      "before_sha256": "5e840be8e2574ddc674ea9fac785d991d2aad1327a4a9a0f560a8cb57668c530",
+      "adapted": false
+    },
+    "exact32-source/PROVENANCE.md": {
+      "path": "upstream/exact32/PROVENANCE.md",
+      "before_sha256": "80d043698939251624f83628707336ea57c1177a5a01510677dd5eb2dc8f2cb7",
+      "adapted": false
+    },
+    "exact32-source/README.md": {
+      "path": "upstream/exact32/README.md",
+      "before_sha256": "f64710e52d87db316934866444dc432e4be00c390e4f3d530a7d11620413aff4",
+      "adapted": false
+    },
+    "exact32-source/adaptive_evidence/__init__.py": {
+      "path": "upstream/exact32/adaptive_evidence/__init__.py",
+      "before_sha256": "bffb96293a3ee82cfe3742c52d9a91e8ff65e60394b09128088d6d25cfb4ebbf",
+      "adapted": false
+    },
+    "exact32-source/adaptive_evidence/api.py": {
+      "path": "upstream/exact32/adaptive_evidence/api.py",
+      "before_sha256": "852f309c88b6a5edab2a7199e3297302fc48b1c4de24e265ae601663eb320086",
+      "adapted": false
+    },
+    "exact32-source/adaptive_evidence/core.py": {
+      "path": "upstream/exact32/adaptive_evidence/core.py",
+      "before_sha256": "8bf823550c55dbd9c0048f55dc6d43448387450591204d0513e3717a3462579f",
+      "adapted": false
+    },
+    "exact32-source/adaptive_evidence/encoder.py": {
+      "path": "upstream/exact32/adaptive_evidence/encoder.py",
+      "before_sha256": "9d780f9179c00168a68d75b74855ff6b07eb655f2ed106fd2c97b5ab9c3b78ae",
+      "adapted": false
+    },
+    "exact32-source/adaptive_evidence/evidence_windows.py": {
+      "path": "upstream/exact32/adaptive_evidence/evidence_windows.py",
+      "before_sha256": "6995c2b015b75bcb626650e73612ce5e948cc8fdc04e58ca18d534ed0b978166",
+      "adapted": false
+    },
+    "exact32-source/adaptive_evidence/focused_packing.py": {
+      "path": "upstream/exact32/adaptive_evidence/focused_packing.py",
+      "before_sha256": "4bac95a03cca7aa65807f24977b7441ddef48b83c4510da16cdfbd2d71d00116",
+      "adapted": false
+    },
+    "exact32-source/adaptive_evidence/passage_packing.py": {
+      "path": "upstream/exact32/adaptive_evidence/passage_packing.py",
+      "before_sha256": "e0048dae8c6e6368ede7219602c24557ce524e1bd5ce6c2fc201d9ec1e49bd03",
+      "adapted": false
+    },
+    "exact32-source/adaptive_evidence/remote_encoder.py": {
+      "path": "upstream/exact32/adaptive_evidence/remote_encoder.py",
+      "before_sha256": "684c42a960cc15c68cea710337421c716145facc2dc09c9a3fd8b1a427b9b1e3",
+      "adapted": false
+    },
+    "exact32-source/adaptive_evidence/retrieval_views.py": {
+      "path": "upstream/exact32/adaptive_evidence/retrieval_views.py",
+      "before_sha256": "25876968cd5029ac9da816fc459ed5a427f8eed24cc4901540dadef03746bf91",
+      "adapted": false
+    },
+    "exact32-source/adaptive_evidence/source_links.py": {
+      "path": "upstream/exact32/adaptive_evidence/source_links.py",
+      "before_sha256": "19798eb431e25c57f8f71a2524da70ac482a1e4353f1ba426bf7c0bec49b4bf0",
+      "adapted": false
+    },
+    "exact32-source/adaptive_evidence/source_prior.py": {
+      "path": "upstream/exact32/adaptive_evidence/source_prior.py",
+      "before_sha256": "01321f13642f129dd3ff4c5be27068cff07e6096b0a9b5edd3e324adad3d4e37",
+      "adapted": false
+    },
+    "exact32-source/preflight.py": {
+      "path": "upstream/exact32/preflight.py",
+      "before_sha256": "d4d04182cc033f8843a088ebc6115c90786b2625befc97c23354dc9893061a17",
+      "adapted": false
+    },
+    "exact32-source/requirements.txt": {
+      "path": "upstream/exact32/requirements.txt",
+      "before_sha256": "30ce0a775c34585539d9e8bd18ca8d7557edd62c5f2c97f3d7dfa1fcc143a2cc",
+      "adapted": false
+    },
+    "exact32-source/tests/test_adaptive.py": {
+      "path": "upstream/exact32/tests/test_adaptive.py",
+      "before_sha256": "79fcd31ab327a80a1e145fded1c8f69845cb36ceb28ca1d76b34e778e14fd4d9",
+      "adapted": false
+    },
+    "exact32-source/tests/test_answer_only.py": {
+      "path": "upstream/exact32/tests/test_answer_only.py",
+      "before_sha256": "f17cc69e098e7cb46e0fb2806f694f83173b2bcd904b73be9beeb21ee9424a8a",
+      "adapted": false
+    },
+    "exact32-source/tests/test_coherent_sources.py": {
+      "path": "upstream/exact32/tests/test_coherent_sources.py",
+      "before_sha256": "92d715071082ca16e6340b2911666a008b9d4f44675a1370f8dee469157c1049",
+      "adapted": false
+    },
+    "exact32-source/tests/test_contract.py": {
+      "path": "upstream/exact32/tests/test_contract.py",
+      "before_sha256": "b89cbbfc49f6fb0a7b2f2c0260e2dfa7d2335ffc3b813f31f7593260b52c96ae",
+      "adapted": false
+    },
+    "exact32-source/tests/test_evidence_budget.py": {
+      "path": "upstream/exact32/tests/test_evidence_budget.py",
+      "before_sha256": "c41047949df0e9b65d38056de3607786ba7660a103c2b0ac3db5779645d6cd7d",
+      "adapted": false
+    },
+    "exact32-source/tests/test_evidence_windows.py": {
+      "path": "upstream/exact32/tests/test_evidence_windows.py",
+      "before_sha256": "04fadc9a3c1b612aba1f180ad1ee2fdff3a7f260eaf4a2d6483807273e742e97",
+      "adapted": false
+    },
+    "exact32-source/tests/test_focused_packing.py": {
+      "path": "upstream/exact32/tests/test_focused_packing.py",
+      "before_sha256": "1c68b0a961201c5cd7125b7914afa5dcdc2d498dc501741f18fb532f128b5c72",
+      "adapted": false
+    },
+    "exact32-source/tests/test_query_documents.py": {
+      "path": "upstream/exact32/tests/test_query_documents.py",
+      "before_sha256": "e0e0d1218cf7fc99c30ae682c08ce0794e945174e46e523478c2e52a6e2d3c28",
+      "adapted": false
+    },
+    "exact32-source/tests/test_remote_encoder.py": {
+      "path": "upstream/exact32/tests/test_remote_encoder.py",
+      "before_sha256": "8b001763ae71afe331533c03e684ccf81087223e8fafc486c8ac6d7aaa4e51c4",
+      "adapted": false
+    },
+    "exact32-source/tests/test_retrieval_views.py": {
+      "path": "upstream/exact32/tests/test_retrieval_views.py",
+      "before_sha256": "2f626a56be75b4293c0bf1e77ce0b6684ba159da58ebe69afea3651020e1e4a9",
+      "adapted": false
+    },
+    "model_lock.py": {
+      "path": "coordination/model_lock.py",
+      "before_sha256": "11ad039512c995b514cef65d14e039b1e01a850478db22f0ce10087680d6d025",
+      "adapted": true
+    },
+    "releases/v0.69-v3-current-source/.gitattributes": {
+      "path": "releases/v0.69-v3-current-source/.gitattributes",
+      "before_sha256": "25e32e1471ed181521d0dc2cb8513cf0c8d332d074f968bc52a715e6379d81a4",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/.gitignore": {
+      "path": "releases/v0.69-v3-current-source/.gitignore",
+      "before_sha256": "0fba60c2046dd4b5a6360e668301fef8b5dce35b8a9950fa64fcb1d3da54ca15",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/LICENSE": {
+      "path": "releases/v0.69-v3-current-source/LICENSE",
+      "before_sha256": "5e840be8e2574ddc674ea9fac785d991d2aad1327a4a9a0f560a8cb57668c530",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/README.md": {
+      "path": "releases/v0.69-v3-current-source/README.md",
+      "before_sha256": "d2954bcc753480ffa7686204423e05c6be23147c4b4c0f9024ce1caf19ea382e",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/README_M06.md": {
+      "path": "releases/v0.69-v3-current-source/README_M06.md",
+      "before_sha256": "7fe1378e60d094f750ea65f1f29489964296a2d7a53dcd9142439742e6b62e25",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/RELEASE_MANIFEST.json": {
+      "path": "releases/v0.69-v3-current-source/RELEASE_MANIFEST.json",
+      "before_sha256": "997fad139c0f93ef60eb5714fe8bc62f976814eecb46122f5bcb83495384ae7c",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/RUN_GUIDE.md": {
+      "path": "releases/v0.69-v3-current-source/RUN_GUIDE.md",
+      "before_sha256": "e2c3cf74b5009e6da40d4dd2832dc452d9a774313a6c2b0c81e06f48cfd7feca",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/SOURCE_PROVENANCE.json": {
+      "path": "releases/v0.69-v3-current-source/SOURCE_PROVENANCE.json",
+      "before_sha256": "fd61eae507320db71cdfd56fbf386a21e82b6dc3a757a7c3f6ee54d6d3b10bac",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/UPSTREAM_STANDALONE_MANIFEST.json": {
+      "path": "releases/v0.69-v3-current-source/UPSTREAM_STANDALONE_MANIFEST.json",
+      "before_sha256": "6b5aa17172779f3fff555653f182e67e96191651f247a9d0084126bfc973c138",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/candidate.py": {
+      "path": "releases/v0.69-v3-current-source/candidate.py",
+      "before_sha256": "7c42aab6055539082b3a0650b83d15d58bb2749f9851e1d4713a80660fdd951d",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/demo.py": {
+      "path": "releases/v0.69-v3-current-source/demo.py",
+      "before_sha256": "f6d1529c6d893335733474e4798b0419c02c2854004845d07b8a36f14243c28c",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/PROVENANCE.md": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/PROVENANCE.md",
+      "before_sha256": "80d043698939251624f83628707336ea57c1177a5a01510677dd5eb2dc8f2cb7",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/README.md": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/README.md",
+      "before_sha256": "f64710e52d87db316934866444dc432e4be00c390e4f3d530a7d11620413aff4",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/__init__.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/__init__.py",
+      "before_sha256": "bffb96293a3ee82cfe3742c52d9a91e8ff65e60394b09128088d6d25cfb4ebbf",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/api.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/api.py",
+      "before_sha256": "852f309c88b6a5edab2a7199e3297302fc48b1c4de24e265ae601663eb320086",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/core.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/core.py",
+      "before_sha256": "8bf823550c55dbd9c0048f55dc6d43448387450591204d0513e3717a3462579f",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/encoder.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/encoder.py",
+      "before_sha256": "9d780f9179c00168a68d75b74855ff6b07eb655f2ed106fd2c97b5ab9c3b78ae",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/evidence_windows.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/evidence_windows.py",
+      "before_sha256": "6995c2b015b75bcb626650e73612ce5e948cc8fdc04e58ca18d534ed0b978166",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/focused_packing.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/focused_packing.py",
+      "before_sha256": "4bac95a03cca7aa65807f24977b7441ddef48b83c4510da16cdfbd2d71d00116",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/passage_packing.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/passage_packing.py",
+      "before_sha256": "e0048dae8c6e6368ede7219602c24557ce524e1bd5ce6c2fc201d9ec1e49bd03",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/remote_encoder.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/remote_encoder.py",
+      "before_sha256": "684c42a960cc15c68cea710337421c716145facc2dc09c9a3fd8b1a427b9b1e3",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/retrieval_views.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/retrieval_views.py",
+      "before_sha256": "25876968cd5029ac9da816fc459ed5a427f8eed24cc4901540dadef03746bf91",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/source_links.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/source_links.py",
+      "before_sha256": "19798eb431e25c57f8f71a2524da70ac482a1e4353f1ba426bf7c0bec49b4bf0",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/source_prior.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/source_prior.py",
+      "before_sha256": "01321f13642f129dd3ff4c5be27068cff07e6096b0a9b5edd3e324adad3d4e37",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/preflight.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/preflight.py",
+      "before_sha256": "d4d04182cc033f8843a088ebc6115c90786b2625befc97c23354dc9893061a17",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/requirements.txt": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/requirements.txt",
+      "before_sha256": "30ce0a775c34585539d9e8bd18ca8d7557edd62c5f2c97f3d7dfa1fcc143a2cc",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_adaptive.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/tests/test_adaptive.py",
+      "before_sha256": "79fcd31ab327a80a1e145fded1c8f69845cb36ceb28ca1d76b34e778e14fd4d9",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_answer_only.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/tests/test_answer_only.py",
+      "before_sha256": "f17cc69e098e7cb46e0fb2806f694f83173b2bcd904b73be9beeb21ee9424a8a",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_coherent_sources.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/tests/test_coherent_sources.py",
+      "before_sha256": "92d715071082ca16e6340b2911666a008b9d4f44675a1370f8dee469157c1049",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_contract.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/tests/test_contract.py",
+      "before_sha256": "b89cbbfc49f6fb0a7b2f2c0260e2dfa7d2335ffc3b813f31f7593260b52c96ae",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_evidence_budget.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/tests/test_evidence_budget.py",
+      "before_sha256": "c41047949df0e9b65d38056de3607786ba7660a103c2b0ac3db5779645d6cd7d",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_evidence_windows.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/tests/test_evidence_windows.py",
+      "before_sha256": "04fadc9a3c1b612aba1f180ad1ee2fdff3a7f260eaf4a2d6483807273e742e97",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_focused_packing.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/tests/test_focused_packing.py",
+      "before_sha256": "1c68b0a961201c5cd7125b7914afa5dcdc2d498dc501741f18fb532f128b5c72",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_query_documents.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/tests/test_query_documents.py",
+      "before_sha256": "e0e0d1218cf7fc99c30ae682c08ce0794e945174e46e523478c2e52a6e2d3c28",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_remote_encoder.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/tests/test_remote_encoder.py",
+      "before_sha256": "8b001763ae71afe331533c03e684ccf81087223e8fafc486c8ac6d7aaa4e51c4",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_retrieval_views.py": {
+      "path": "releases/v0.69-v3-current-source/exact32-source/tests/test_retrieval_views.py",
+      "before_sha256": "2f626a56be75b4293c0bf1e77ce0b6684ba159da58ebe69afea3651020e1e4a9",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/m06_candidate.py": {
+      "path": "releases/v0.69-v3-current-source/m06_candidate.py",
+      "before_sha256": "cfea4fe530b82f032452fa7f4bd3812301e1a4ad230d552da0f0ffb135a30e5b",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/requirements-local.txt": {
+      "path": "releases/v0.69-v3-current-source/requirements-local.txt",
+      "before_sha256": "192bccf84bd0e5788792b1e3d2f494591ec749c42ac00216cc9d92d10476f2bd",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/requirements.txt": {
+      "path": "releases/v0.69-v3-current-source/requirements.txt",
+      "before_sha256": "30ce0a775c34585539d9e8bd18ca8d7557edd62c5f2c97f3d7dfa1fcc143a2cc",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/tests/test_candidate.py": {
+      "path": "releases/v0.69-v3-current-source/tests/test_candidate.py",
+      "before_sha256": "bef5c4f95d040096779e4bd142976945e5f02ee4e714e364dcf275724ee39900",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/tests/test_distribution.py": {
+      "path": "releases/v0.69-v3-current-source/tests/test_distribution.py",
+      "before_sha256": "02bf9c41e8fa791bdd6c48d3ba0d801df7191d161a9b397111279b5abd6feff5",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/tests/test_m06_adapter.py": {
+      "path": "releases/v0.69-v3-current-source/tests/test_m06_adapter.py",
+      "before_sha256": "d55db50c4603148cd6bfd047b1e447f5d9bfd3ae3c1a0fe76281f2d6068259b5",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/usertrail.py": {
+      "path": "releases/v0.69-v3-current-source/usertrail.py",
+      "before_sha256": "b240e695daa7bb872523eb1669cc341a64fafc9ce45d918824ae5f7010086a12",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/usertrail_service.py": {
+      "path": "releases/v0.69-v3-current-source/usertrail_service.py",
+      "before_sha256": "c48d868914d146e23c092c7c5bb3e35ab82cf3998a75d1c953f7b2d247f8aa87",
+      "adapted": false
+    },
+    "releases/v0.69-v3-current-source/verify_release.py": {
+      "path": "releases/v0.69-v3-current-source/verify_release.py",
+      "before_sha256": "8ec0baac39b08e2c980d20c96c3f47baa209cc1c3d9bdb09195fd0a3f54d2075",
+      "adapted": false
+    },
+    "requirements-local.txt": {
+      "path": "requirements-local.txt",
+      "before_sha256": "192bccf84bd0e5788792b1e3d2f494591ec749c42ac00216cc9d92d10476f2bd",
+      "adapted": false
+    },
+    "requirements.txt": {
+      "path": "requirements.txt",
+      "before_sha256": "30ce0a775c34585539d9e8bd18ca8d7557edd62c5f2c97f3d7dfa1fcc143a2cc",
+      "adapted": false
+    },
+    "research/RESULTS.md": {
+      "path": "studies/RESULTS.md",
+      "before_sha256": "0746d346cf276e1c6071d2e277c748d2468d989d018b061957385596c80981d2",
+      "adapted": false
+    },
+    "research/case-outcomes.json": {
+      "path": "studies/case-outcomes.json",
+      "before_sha256": "ad0b578cb231cfa2fab0418e4d359bffacdbc04b5a6fd0ac60d705a494512550",
+      "adapted": false
+    },
+    "research/costs.json": {
+      "path": "studies/costs.json",
+      "before_sha256": "aeee436fd585ee0409dd42f5d1024a09ddf2fc19570a650e970a807d6e8bcff4",
+      "adapted": false
+    },
+    "research/personalization-types.json": {
+      "path": "studies/personalization-types.json",
+      "before_sha256": "da18f5d8466bdd1c2eec22e4962710b364da36f87a80106b634bc8f3a0caf3ce",
+      "adapted": false
+    },
+    "research/summary.json": {
+      "path": "studies/summary.json",
+      "before_sha256": "bad1a07b767744ada215cabe5cbb3bb3b5a48b50d7efbeb910f89f8dc74712b8",
+      "adapted": false
+    },
+    "research/uncertainty.json": {
+      "path": "studies/uncertainty.json",
+      "before_sha256": "0c6b97048fbde879d8bda43daefec0f6eb992d869e6f5a2aa0ea3b09138ac73d",
+      "adapted": false
+    },
+    "tests/test_candidate.py": {
+      "path": "scenarios/tests/test_candidate.py",
+      "before_sha256": "f90be852691e3a5c9df1cca8211eb2e5ca6146c9c0c09d9e267f885c5429730c",
+      "adapted": true
+    },
+    "tests/test_distribution.py": {
+      "path": "scenarios/tests/test_distribution.py",
+      "before_sha256": "0f8bec34c43329c78a5f02ebb67029f43cb6c1422188935ac4428e9de5b2617f",
+      "adapted": false
+    },
+    "usertrail.py": {
+      "path": "history/usertrail/history.py",
+      "before_sha256": "21535392edfcf35887a9f72a86ccb88f1b8608c36eba6a8a6081a72bdb9aa28a",
+      "adapted": true
+    },
+    "usertrail_service.py": {
+      "path": "interfaces/http/usertrail_service.py",
+      "before_sha256": "1e1c32e7bab7fc2b55b65052735875a7055e7f86872d42701b32808f3c8d610a",
+      "adapted": false
+    },
+    "verify_release.py": {
+      "path": "scenarios/verify_release.py",
+      "before_sha256": "8ec0baac39b08e2c980d20c96c3f47baa209cc1c3d9bdb09195fd0a3f54d2075",
+      "adapted": true
+    }
+  },
+  "protected_files": {
+    "RELEASE_MANIFEST.json": "ac43903b9338163ade2eababeb71c04d130cc96fd465e447971f7f388b1535b6",
+    "SOURCE_PROVENANCE.json": "02ee62b3c82e3585c655c652a810ad15795d80c9616c3fe8ba2dddc0f7ab0a94",
+    "releases/v0.69-v3-current-source/.gitattributes": "25e32e1471ed181521d0dc2cb8513cf0c8d332d074f968bc52a715e6379d81a4",
+    "releases/v0.69-v3-current-source/.gitignore": "0fba60c2046dd4b5a6360e668301fef8b5dce35b8a9950fa64fcb1d3da54ca15",
+    "releases/v0.69-v3-current-source/LICENSE": "5e840be8e2574ddc674ea9fac785d991d2aad1327a4a9a0f560a8cb57668c530",
+    "releases/v0.69-v3-current-source/README.md": "d2954bcc753480ffa7686204423e05c6be23147c4b4c0f9024ce1caf19ea382e",
+    "releases/v0.69-v3-current-source/README_M06.md": "7fe1378e60d094f750ea65f1f29489964296a2d7a53dcd9142439742e6b62e25",
+    "releases/v0.69-v3-current-source/RELEASE_MANIFEST.json": "997fad139c0f93ef60eb5714fe8bc62f976814eecb46122f5bcb83495384ae7c",
+    "releases/v0.69-v3-current-source/RUN_GUIDE.md": "e2c3cf74b5009e6da40d4dd2832dc452d9a774313a6c2b0c81e06f48cfd7feca",
+    "releases/v0.69-v3-current-source/SOURCE_PROVENANCE.json": "fd61eae507320db71cdfd56fbf386a21e82b6dc3a757a7c3f6ee54d6d3b10bac",
+    "releases/v0.69-v3-current-source/UPSTREAM_STANDALONE_MANIFEST.json": "6b5aa17172779f3fff555653f182e67e96191651f247a9d0084126bfc973c138",
+    "releases/v0.69-v3-current-source/candidate.py": "7c42aab6055539082b3a0650b83d15d58bb2749f9851e1d4713a80660fdd951d",
+    "releases/v0.69-v3-current-source/demo.py": "f6d1529c6d893335733474e4798b0419c02c2854004845d07b8a36f14243c28c",
+    "releases/v0.69-v3-current-source/exact32-source/PROVENANCE.md": "80d043698939251624f83628707336ea57c1177a5a01510677dd5eb2dc8f2cb7",
+    "releases/v0.69-v3-current-source/exact32-source/README.md": "f64710e52d87db316934866444dc432e4be00c390e4f3d530a7d11620413aff4",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/__init__.py": "bffb96293a3ee82cfe3742c52d9a91e8ff65e60394b09128088d6d25cfb4ebbf",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/api.py": "852f309c88b6a5edab2a7199e3297302fc48b1c4de24e265ae601663eb320086",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/core.py": "8bf823550c55dbd9c0048f55dc6d43448387450591204d0513e3717a3462579f",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/encoder.py": "9d780f9179c00168a68d75b74855ff6b07eb655f2ed106fd2c97b5ab9c3b78ae",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/evidence_windows.py": "6995c2b015b75bcb626650e73612ce5e948cc8fdc04e58ca18d534ed0b978166",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/focused_packing.py": "4bac95a03cca7aa65807f24977b7441ddef48b83c4510da16cdfbd2d71d00116",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/passage_packing.py": "e0048dae8c6e6368ede7219602c24557ce524e1bd5ce6c2fc201d9ec1e49bd03",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/remote_encoder.py": "684c42a960cc15c68cea710337421c716145facc2dc09c9a3fd8b1a427b9b1e3",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/retrieval_views.py": "25876968cd5029ac9da816fc459ed5a427f8eed24cc4901540dadef03746bf91",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/source_links.py": "19798eb431e25c57f8f71a2524da70ac482a1e4353f1ba426bf7c0bec49b4bf0",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/source_prior.py": "01321f13642f129dd3ff4c5be27068cff07e6096b0a9b5edd3e324adad3d4e37",
+    "releases/v0.69-v3-current-source/exact32-source/preflight.py": "d4d04182cc033f8843a088ebc6115c90786b2625befc97c23354dc9893061a17",
+    "releases/v0.69-v3-current-source/exact32-source/requirements.txt": "30ce0a775c34585539d9e8bd18ca8d7557edd62c5f2c97f3d7dfa1fcc143a2cc",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_adaptive.py": "79fcd31ab327a80a1e145fded1c8f69845cb36ceb28ca1d76b34e778e14fd4d9",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_answer_only.py": "f17cc69e098e7cb46e0fb2806f694f83173b2bcd904b73be9beeb21ee9424a8a",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_coherent_sources.py": "92d715071082ca16e6340b2911666a008b9d4f44675a1370f8dee469157c1049",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_contract.py": "b89cbbfc49f6fb0a7b2f2c0260e2dfa7d2335ffc3b813f31f7593260b52c96ae",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_evidence_budget.py": "c41047949df0e9b65d38056de3607786ba7660a103c2b0ac3db5779645d6cd7d",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_evidence_windows.py": "04fadc9a3c1b612aba1f180ad1ee2fdff3a7f260eaf4a2d6483807273e742e97",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_focused_packing.py": "1c68b0a961201c5cd7125b7914afa5dcdc2d498dc501741f18fb532f128b5c72",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_query_documents.py": "e0e0d1218cf7fc99c30ae682c08ce0794e945174e46e523478c2e52a6e2d3c28",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_remote_encoder.py": "8b001763ae71afe331533c03e684ccf81087223e8fafc486c8ac6d7aaa4e51c4",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_retrieval_views.py": "2f626a56be75b4293c0bf1e77ce0b6684ba159da58ebe69afea3651020e1e4a9",
+    "releases/v0.69-v3-current-source/m06_candidate.py": "cfea4fe530b82f032452fa7f4bd3812301e1a4ad230d552da0f0ffb135a30e5b",
+    "releases/v0.69-v3-current-source/requirements-local.txt": "192bccf84bd0e5788792b1e3d2f494591ec749c42ac00216cc9d92d10476f2bd",
+    "releases/v0.69-v3-current-source/requirements.txt": "30ce0a775c34585539d9e8bd18ca8d7557edd62c5f2c97f3d7dfa1fcc143a2cc",
+    "releases/v0.69-v3-current-source/tests/test_candidate.py": "bef5c4f95d040096779e4bd142976945e5f02ee4e714e364dcf275724ee39900",
+    "releases/v0.69-v3-current-source/tests/test_distribution.py": "02bf9c41e8fa791bdd6c48d3ba0d801df7191d161a9b397111279b5abd6feff5",
+    "releases/v0.69-v3-current-source/tests/test_m06_adapter.py": "d55db50c4603148cd6bfd047b1e447f5d9bfd3ae3c1a0fe76281f2d6068259b5",
+    "releases/v0.69-v3-current-source/usertrail.py": "b240e695daa7bb872523eb1669cc341a64fafc9ce45d918824ae5f7010086a12",
+    "releases/v0.69-v3-current-source/usertrail_service.py": "c48d868914d146e23c092c7c5bb3e35ab82cf3998a75d1c953f7b2d247f8aa87",
+    "releases/v0.69-v3-current-source/verify_release.py": "8ec0baac39b08e2c980d20c96c3f47baa209cc1c3d9bdb09195fd0a3f54d2075"
+  },
+  "files_sha256": {
+    ".gitattributes": "25e32e1471ed181521d0dc2cb8513cf0c8d332d074f968bc52a715e6379d81a4",
+    ".gitignore": "159ab0d423bf2d26dd816c5c82b83550dafb3739cc7a3c51bf3986a3ef260337",
+    "CHANGELOG.md": "4c872ded3425e6a62a2acf08794c27bbd4d14e93ad78b284460951406391a8b1",
+    "LICENSE": "5e840be8e2574ddc674ea9fac785d991d2aad1327a4a9a0f560a8cb57668c530",
+    "README.md": "78d931af15055819acda549343d349f71f6da8984cd5aa84cb615455a391055b",
+    "RELEASE_MANIFEST.json": "ac43903b9338163ade2eababeb71c04d130cc96fd465e447971f7f388b1535b6",
+    "SOURCE_PROVENANCE.json": "02ee62b3c82e3585c655c652a810ad15795d80c9616c3fe8ba2dddc0f7ab0a94",
+    "SUBMISSION_v0.69.zh-CN.md": "5521784171d2dc119045e09f84d6daf20903d08c65420c341e61335f68c0a9e2",
+    "SUBMISSION_v0.69_DRAFT.zh-CN.md": "2317e5c5c056ef6584905a52d77badd46c4c25fcae7d5f449a98980cc55ac3d0",
+    "coordination/__init__.py": "efd6919e38c4def305ae301ef0123b2f5852ae532b5048b0dae4667ac43631a4",
+    "coordination/model_lock.py": "7fb2707b4e9f823d04ede7270d83c40f7e3c2f03ff4729a6c9b77a21d6a90b99",
+    "history/usertrail/__init__.py": "87874c2929388ae9b582f2d6a28b064e3d7ee67a51e2fde1a69bc2cbf7db25c9",
+    "history/usertrail/candidates.py": "1639d2ec45464ac94af6a443c59509b9e85c8aecaff4028d86c320de31a44c78",
+    "history/usertrail/history.py": "2cb5f9feac2a88b2a80b682b7571cd9cb8d48353faadad145b9fe1ed603bc7b3",
+    "interfaces/http/usertrail_service.py": "1e1c32e7bab7fc2b55b65052735875a7055e7f86872d42701b32808f3c8d610a",
+    "pyproject.toml": "7e603061e750bf3956e31317fc7eee2da3c477033581f8580d0758d05a750ae8",
+    "releases/v0.69-v3-current-source/.gitattributes": "25e32e1471ed181521d0dc2cb8513cf0c8d332d074f968bc52a715e6379d81a4",
+    "releases/v0.69-v3-current-source/.gitignore": "0fba60c2046dd4b5a6360e668301fef8b5dce35b8a9950fa64fcb1d3da54ca15",
+    "releases/v0.69-v3-current-source/LICENSE": "5e840be8e2574ddc674ea9fac785d991d2aad1327a4a9a0f560a8cb57668c530",
+    "releases/v0.69-v3-current-source/README.md": "d2954bcc753480ffa7686204423e05c6be23147c4b4c0f9024ce1caf19ea382e",
+    "releases/v0.69-v3-current-source/README_M06.md": "7fe1378e60d094f750ea65f1f29489964296a2d7a53dcd9142439742e6b62e25",
+    "releases/v0.69-v3-current-source/RELEASE_MANIFEST.json": "997fad139c0f93ef60eb5714fe8bc62f976814eecb46122f5bcb83495384ae7c",
+    "releases/v0.69-v3-current-source/RUN_GUIDE.md": "e2c3cf74b5009e6da40d4dd2832dc452d9a774313a6c2b0c81e06f48cfd7feca",
+    "releases/v0.69-v3-current-source/SOURCE_PROVENANCE.json": "fd61eae507320db71cdfd56fbf386a21e82b6dc3a757a7c3f6ee54d6d3b10bac",
+    "releases/v0.69-v3-current-source/UPSTREAM_STANDALONE_MANIFEST.json": "6b5aa17172779f3fff555653f182e67e96191651f247a9d0084126bfc973c138",
+    "releases/v0.69-v3-current-source/candidate.py": "7c42aab6055539082b3a0650b83d15d58bb2749f9851e1d4713a80660fdd951d",
+    "releases/v0.69-v3-current-source/demo.py": "f6d1529c6d893335733474e4798b0419c02c2854004845d07b8a36f14243c28c",
+    "releases/v0.69-v3-current-source/exact32-source/PROVENANCE.md": "80d043698939251624f83628707336ea57c1177a5a01510677dd5eb2dc8f2cb7",
+    "releases/v0.69-v3-current-source/exact32-source/README.md": "f64710e52d87db316934866444dc432e4be00c390e4f3d530a7d11620413aff4",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/__init__.py": "bffb96293a3ee82cfe3742c52d9a91e8ff65e60394b09128088d6d25cfb4ebbf",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/api.py": "852f309c88b6a5edab2a7199e3297302fc48b1c4de24e265ae601663eb320086",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/core.py": "8bf823550c55dbd9c0048f55dc6d43448387450591204d0513e3717a3462579f",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/encoder.py": "9d780f9179c00168a68d75b74855ff6b07eb655f2ed106fd2c97b5ab9c3b78ae",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/evidence_windows.py": "6995c2b015b75bcb626650e73612ce5e948cc8fdc04e58ca18d534ed0b978166",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/focused_packing.py": "4bac95a03cca7aa65807f24977b7441ddef48b83c4510da16cdfbd2d71d00116",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/passage_packing.py": "e0048dae8c6e6368ede7219602c24557ce524e1bd5ce6c2fc201d9ec1e49bd03",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/remote_encoder.py": "684c42a960cc15c68cea710337421c716145facc2dc09c9a3fd8b1a427b9b1e3",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/retrieval_views.py": "25876968cd5029ac9da816fc459ed5a427f8eed24cc4901540dadef03746bf91",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/source_links.py": "19798eb431e25c57f8f71a2524da70ac482a1e4353f1ba426bf7c0bec49b4bf0",
+    "releases/v0.69-v3-current-source/exact32-source/adaptive_evidence/source_prior.py": "01321f13642f129dd3ff4c5be27068cff07e6096b0a9b5edd3e324adad3d4e37",
+    "releases/v0.69-v3-current-source/exact32-source/preflight.py": "d4d04182cc033f8843a088ebc6115c90786b2625befc97c23354dc9893061a17",
+    "releases/v0.69-v3-current-source/exact32-source/requirements.txt": "30ce0a775c34585539d9e8bd18ca8d7557edd62c5f2c97f3d7dfa1fcc143a2cc",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_adaptive.py": "79fcd31ab327a80a1e145fded1c8f69845cb36ceb28ca1d76b34e778e14fd4d9",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_answer_only.py": "f17cc69e098e7cb46e0fb2806f694f83173b2bcd904b73be9beeb21ee9424a8a",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_coherent_sources.py": "92d715071082ca16e6340b2911666a008b9d4f44675a1370f8dee469157c1049",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_contract.py": "b89cbbfc49f6fb0a7b2f2c0260e2dfa7d2335ffc3b813f31f7593260b52c96ae",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_evidence_budget.py": "c41047949df0e9b65d38056de3607786ba7660a103c2b0ac3db5779645d6cd7d",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_evidence_windows.py": "04fadc9a3c1b612aba1f180ad1ee2fdff3a7f260eaf4a2d6483807273e742e97",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_focused_packing.py": "1c68b0a961201c5cd7125b7914afa5dcdc2d498dc501741f18fb532f128b5c72",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_query_documents.py": "e0e0d1218cf7fc99c30ae682c08ce0794e945174e46e523478c2e52a6e2d3c28",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_remote_encoder.py": "8b001763ae71afe331533c03e684ccf81087223e8fafc486c8ac6d7aaa4e51c4",
+    "releases/v0.69-v3-current-source/exact32-source/tests/test_retrieval_views.py": "2f626a56be75b4293c0bf1e77ce0b6684ba159da58ebe69afea3651020e1e4a9",
+    "releases/v0.69-v3-current-source/m06_candidate.py": "cfea4fe530b82f032452fa7f4bd3812301e1a4ad230d552da0f0ffb135a30e5b",
+    "releases/v0.69-v3-current-source/requirements-local.txt": "192bccf84bd0e5788792b1e3d2f494591ec749c42ac00216cc9d92d10476f2bd",
+    "releases/v0.69-v3-current-source/requirements.txt": "30ce0a775c34585539d9e8bd18ca8d7557edd62c5f2c97f3d7dfa1fcc143a2cc",
+    "releases/v0.69-v3-current-source/tests/test_candidate.py": "bef5c4f95d040096779e4bd142976945e5f02ee4e714e364dcf275724ee39900",
+    "releases/v0.69-v3-current-source/tests/test_distribution.py": "02bf9c41e8fa791bdd6c48d3ba0d801df7191d161a9b397111279b5abd6feff5",
+    "releases/v0.69-v3-current-source/tests/test_m06_adapter.py": "d55db50c4603148cd6bfd047b1e447f5d9bfd3ae3c1a0fe76281f2d6068259b5",
+    "releases/v0.69-v3-current-source/usertrail.py": "b240e695daa7bb872523eb1669cc341a64fafc9ce45d918824ae5f7010086a12",
+    "releases/v0.69-v3-current-source/usertrail_service.py": "c48d868914d146e23c092c7c5bb3e35ab82cf3998a75d1c953f7b2d247f8aa87",
+    "releases/v0.69-v3-current-source/verify_release.py": "8ec0baac39b08e2c980d20c96c3f47baa209cc1c3d9bdb09195fd0a3f54d2075",
+    "requirements-local.txt": "192bccf84bd0e5788792b1e3d2f494591ec749c42ac00216cc9d92d10476f2bd",
+    "requirements.txt": "30ce0a775c34585539d9e8bd18ca8d7557edd62c5f2c97f3d7dfa1fcc143a2cc",
+    "scenarios/RUN_GUIDE.md": "c31c30191995c207c0016c954ed15ad2a5b518ed4b2998fbc87c29187bf7044b",
+    "scenarios/history_demo.py": "f6d1529c6d893335733474e4798b0419c02c2854004845d07b8a36f14243c28c",
+    "scenarios/tests/test_candidate.py": "5f3f7ed42dd59f7f9ee51fc3bfe98faa2d64d30037cee92e29d4a78ce9697cf4",
+    "scenarios/tests/test_distribution.py": "0f8bec34c43329c78a5f02ebb67029f43cb6c1422188935ac4428e9de5b2617f",
+    "scenarios/verify_layout.py": "060245109105687f9237798d9928736051335bfa153b863f888cc45540359438",
+    "scenarios/verify_release.py": "1af6406d4339924786d163014a462594ed1c600172132d52ded84c4741191422",
+    "studies/RESULTS.md": "0746d346cf276e1c6071d2e277c748d2468d989d018b061957385596c80981d2",
+    "studies/case-outcomes.json": "ad0b578cb231cfa2fab0418e4d359bffacdbc04b5a6fd0ac60d705a494512550",
+    "studies/costs.json": "aeee436fd585ee0409dd42f5d1024a09ddf2fc19570a650e970a807d6e8bcff4",
+    "studies/personalization-types.json": "da18f5d8466bdd1c2eec22e4962710b364da36f87a80106b634bc8f3a0caf3ce",
+    "studies/summary.json": "bad1a07b767744ada215cabe5cbb3bb3b5a48b50d7efbeb910f89f8dc74712b8",
+    "studies/uncertainty.json": "0c6b97048fbde879d8bda43daefec0f6eb992d869e6f5a2aa0ea3b09138ac73d",
+    "upstream/exact32/LICENSE": "5e840be8e2574ddc674ea9fac785d991d2aad1327a4a9a0f560a8cb57668c530",
+    "upstream/exact32/PROVENANCE.md": "80d043698939251624f83628707336ea57c1177a5a01510677dd5eb2dc8f2cb7",
+    "upstream/exact32/README.md": "f64710e52d87db316934866444dc432e4be00c390e4f3d530a7d11620413aff4",
+    "upstream/exact32/adaptive_evidence/__init__.py": "bffb96293a3ee82cfe3742c52d9a91e8ff65e60394b09128088d6d25cfb4ebbf",
+    "upstream/exact32/adaptive_evidence/api.py": "852f309c88b6a5edab2a7199e3297302fc48b1c4de24e265ae601663eb320086",
+    "upstream/exact32/adaptive_evidence/core.py": "8bf823550c55dbd9c0048f55dc6d43448387450591204d0513e3717a3462579f",
+    "upstream/exact32/adaptive_evidence/encoder.py": "9d780f9179c00168a68d75b74855ff6b07eb655f2ed106fd2c97b5ab9c3b78ae",
+    "upstream/exact32/adaptive_evidence/evidence_windows.py": "6995c2b015b75bcb626650e73612ce5e948cc8fdc04e58ca18d534ed0b978166",
+    "upstream/exact32/adaptive_evidence/focused_packing.py": "4bac95a03cca7aa65807f24977b7441ddef48b83c4510da16cdfbd2d71d00116",
+    "upstream/exact32/adaptive_evidence/passage_packing.py": "e0048dae8c6e6368ede7219602c24557ce524e1bd5ce6c2fc201d9ec1e49bd03",
+    "upstream/exact32/adaptive_evidence/remote_encoder.py": "684c42a960cc15c68cea710337421c716145facc2dc09c9a3fd8b1a427b9b1e3",
+    "upstream/exact32/adaptive_evidence/retrieval_views.py": "25876968cd5029ac9da816fc459ed5a427f8eed24cc4901540dadef03746bf91",
+    "upstream/exact32/adaptive_evidence/source_links.py": "19798eb431e25c57f8f71a2524da70ac482a1e4353f1ba426bf7c0bec49b4bf0",
+    "upstream/exact32/adaptive_evidence/source_prior.py": "01321f13642f129dd3ff4c5be27068cff07e6096b0a9b5edd3e324adad3d4e37",
+    "upstream/exact32/preflight.py": "d4d04182cc033f8843a088ebc6115c90786b2625befc97c23354dc9893061a17",
+    "upstream/exact32/requirements.txt": "30ce0a775c34585539d9e8bd18ca8d7557edd62c5f2c97f3d7dfa1fcc143a2cc",
+    "upstream/exact32/tests/test_adaptive.py": "79fcd31ab327a80a1e145fded1c8f69845cb36ceb28ca1d76b34e778e14fd4d9",
+    "upstream/exact32/tests/test_answer_only.py": "f17cc69e098e7cb46e0fb2806f694f83173b2bcd904b73be9beeb21ee9424a8a",
+    "upstream/exact32/tests/test_coherent_sources.py": "92d715071082ca16e6340b2911666a008b9d4f44675a1370f8dee469157c1049",
+    "upstream/exact32/tests/test_contract.py": "b89cbbfc49f6fb0a7b2f2c0260e2dfa7d2335ffc3b813f31f7593260b52c96ae",
+    "upstream/exact32/tests/test_evidence_budget.py": "c41047949df0e9b65d38056de3607786ba7660a103c2b0ac3db5779645d6cd7d",
+    "upstream/exact32/tests/test_evidence_windows.py": "04fadc9a3c1b612aba1f180ad1ee2fdff3a7f260eaf4a2d6483807273e742e97",
+    "upstream/exact32/tests/test_focused_packing.py": "1c68b0a961201c5cd7125b7914afa5dcdc2d498dc501741f18fb532f128b5c72",
+    "upstream/exact32/tests/test_query_documents.py": "e0e0d1218cf7fc99c30ae682c08ce0794e945174e46e523478c2e52a6e2d3c28",
+    "upstream/exact32/tests/test_remote_encoder.py": "8b001763ae71afe331533c03e684ccf81087223e8fafc486c8ac6d7aaa4e51c4",
+    "upstream/exact32/tests/test_retrieval_views.py": "2f626a56be75b4293c0bf1e77ce0b6684ba159da58ebe69afea3651020e1e4a9",
+    "scenarios/DEVELOPER_NOTES.md": "cdf5c488497308396e1774f6b36e568d061bbea15da6080e0bd0dedd2a745583"
+  }
+}

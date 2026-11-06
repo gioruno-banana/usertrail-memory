@@ -6,7 +6,7 @@ from pathlib import Path
 import socket
 import uuid
 
-RUN=Path(__file__).resolve().parent
+RUN=Path(__file__).resolve().parents[1]
 LOCK=RUN.parent/'local-model.lock'
 
 

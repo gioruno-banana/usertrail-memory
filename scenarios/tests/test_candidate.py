@@ -8,8 +8,8 @@ import threading
 from types import SimpleNamespace
 import unittest
 import numpy as np
-import candidate as c
-import model_lock
+from usertrail import candidates as c
+from coordination import model_lock
 
 
 def tokenize(text):

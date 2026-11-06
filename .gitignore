@@ -11,3 +11,9 @@ models/
 *.safetensors
 *.log
 tests.json
+
+# Development package build products
+*.egg-info/
+build/
+dist/
+__pycache__/

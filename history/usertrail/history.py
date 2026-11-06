@@ -6,12 +6,12 @@ import sys
 
 import numpy as np
 
-ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT / 'exact32-source'))
+ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(ROOT / 'upstream/exact32'))
 from adaptive_evidence import core
 from adaptive_evidence.evidence_windows import merged_rows
 from adaptive_evidence.focused_packing import STANDING_RULE
-import candidate
+from . import candidates as candidate
 
 __version__ = '0.1.0-research'
 UserTrailStore = candidate.store_class(core, merged_rows, STANDING_RULE)
